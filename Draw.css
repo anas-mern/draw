@@ -1,0 +1,26 @@
+body{
+    background-image: url(./OIP.jpeg);
+    background-size: cover;
+}
+label{
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+input{
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+}
+input[type="submit"]{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+body > form:first-child{
+    width: 300px;
+}
+body > form:nth-child(2) input,
+body > .lists ul{
+    min-width: 300px;
+}
