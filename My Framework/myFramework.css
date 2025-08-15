@@ -368,6 +368,9 @@
 {
     display: inline-block;
 }
+.d-none{
+    display:none;
+}
 /* flex*/
 .d-flex
 {
